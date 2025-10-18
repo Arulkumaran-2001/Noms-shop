@@ -1,0 +1,25 @@
+/* Font Family */
+@font-face {
+  font-family: "BetterFly";
+  src: url("../fonts/betterfly-draft-webfont.woff2") format("woff2"),
+    url("../fonts/betterfly-draft-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "BFNarrow";
+  src: url("../fonts/betterfly-narrow-webfont.woff2") format("woff2"),
+    url("../fonts/betterfly-narrow-webfont.woff") format("woff");
+}
+
+:root {
+  --clr-text: #3d3d3d;
+  --clr-primary: #067e0a;
+  --clr-primary-dark: #125814;
+  --clr-accent: #613b6b;
+  --clr-accent-dark: #44264d;
+  --clf-bg-primary: #ffffff;
+
+  --ff-bfnarrow: "BFNarrow", sans-serif;
+  --ff-crimson: "Crimson Text", serif;
+  --ff-betterfly: "BetterFly", sans-serif;
+}

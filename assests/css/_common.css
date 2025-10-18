@@ -1,0 +1,66 @@
+@import url('./_variables.css');
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: var(--ff-crimson);
+  color: var(--clr-text);
+  font-size: 1.25rem;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+section {
+  padding: 3em 1em;
+}
+
+
+
+/* Typography */
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+h2,
+h3 {
+  font-family: var(--ff-bfnarrow);
+  line-height: 0.8;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+p {
+  margin-bottom: 0.85em;
+}
+p:last-child {
+  margin-bottom: 0;
+}
+.section-title-small {
+  font-size: 3rem;
+}
+
+.section-title-small small {
+  font-size: 0.7em;
+  display: block;
+}
+
